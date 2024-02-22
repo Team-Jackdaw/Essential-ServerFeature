@@ -40,7 +40,7 @@ public class Teleport {
         ServerPlayerEntity player = context.getSource().getPlayer();
         if (player != null) {
             PointInfoManager aPoint = new PointInfoManager(this.workingDirectory, this.logger, name);
-            aPoint.setPos(player.getBlockPos(), player.getServerWorld());
+            aPoint.setPos(player.getBlockPos(), player.getWorld());
             player.sendMessage(Text.of("Set point **.".replace("**", name)));
         } else {
             logger.error("Not a player sent the teleport command.");
