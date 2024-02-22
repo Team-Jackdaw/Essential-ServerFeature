@@ -19,3 +19,26 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# Annotation processor generated files
+remappedSrc/
+
+# fabric
+run/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+# macos
+.DS_Store
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+

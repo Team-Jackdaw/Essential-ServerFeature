@@ -1,0 +1,13 @@
+[version]
+    version = "v1.1"
+
+[fastGameModeSetting]
+    enabled=true
+
+[teleport]
+    enabled=true
+
+[giveOP]
+    enabled=true
+    temp=true
+
